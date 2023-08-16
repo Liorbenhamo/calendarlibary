@@ -1,0 +1,472 @@
+.gridcalendar {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px 50px 50px 50px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    background-color: white;
+    margin: auto;
+  }
+  .savedatebtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #252525;
+    color: grey;
+  
+    font-size: 20px;
+    grid-column: 1;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .yearcalendar {
+    background-color: grey;
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    grid-column: 1/8;
+    grid-row: 1/2;
+  }
+  .btnspotcalendar {
+    grid-column: 1/8;
+    grid-row: 10/11;
+    display: flex;
+  }
+  .monthcalendar {
+    grid-column: 1/8;
+    grid-row: 2/3;
+    background-color: grey;
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+  }
+  .sundaycalendar {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .mondaycalendar {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .tuesdaycalendar {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .wednesdaycalendar {
+    grid-column: 4/5;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .thursdaycalendar {
+    grid-column: 5/6;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .fridaycalendar {
+    grid-column: 6/7;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .saturdaycalendar {
+    grid-column: 7/8;
+    grid-row: 3/4;
+    background-color: rgb(64, 77, 72);
+    border-color: black;
+    border: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .calendarplace1 {
+    grid-column: 1/2;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace2 {
+    grid-column: 2/3;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace3 {
+    grid-column: 3/4;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace4 {
+    grid-column: 4/5;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace5 {
+    grid-column: 5/6;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace6 {
+    grid-column: 6/7;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace7 {
+    grid-column: 7/8;
+    grid-row: 4;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace8 {
+    grid-column: 1/2;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace9 {
+    grid-column: 2/3;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace10 {
+    grid-column: 3/4;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace11 {
+    grid-column: 4/5;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace12 {
+    grid-column: 5/6;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace13 {
+    grid-column: 6/7;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace14 {
+    grid-column: 7/8;
+    grid-row: 5;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace15 {
+    grid-column: 1/2;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace16 {
+    grid-column: 2/3;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace17 {
+    grid-column: 3/4;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace18 {
+    grid-column: 4/5;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace19 {
+    grid-column: 5/6;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace20 {
+    grid-column: 6/7;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace21 {
+    grid-column: 7/8;
+    grid-row: 6;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace22 {
+    grid-column: 1/2;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace23 {
+    grid-column: 2/3;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace24 {
+    grid-column: 3/4;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace25 {
+    grid-column: 4/5;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace26 {
+    grid-column: 5/6;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace27 {
+    grid-column: 6/7;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace28 {
+    grid-column: 7/8;
+    grid-row: 7;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace29 {
+    grid-column: 1/2;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace30 {
+    grid-column: 2/3;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace31 {
+    grid-column: 3/4;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace32 {
+    grid-column: 4/5;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace33 {
+    grid-column: 5/6;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace34 {
+    grid-column: 6/7;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace35 {
+    grid-column: 7/8;
+    grid-row: 8;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace36 {
+    grid-column: 1/2;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace37 {
+    grid-column: 2/3;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace38 {
+    grid-column: 3/4;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace39 {
+    grid-column: 4/5;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace40 {
+    grid-column: 5/6;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace41 {
+    grid-column: 6/7;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .calendarplace42 {
+    grid-column: 7/8;
+    grid-row: 9;
+    background-color: rgb(218, 255, 163);
+    border-color: black;
+    border: inherit;
+  }
+  .homepagebody {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .container {
+    margin: 5px;
+    padding: 5px;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .btnspotcalendar {
+    grid-column: 1/8;
+    grid-row: 10/11;
+    display: flex;
+  }
+  .savedatebtn {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #252525;
+    color: grey;
+  
+    font-size: 20px;
+    grid-column: 1;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .btncalendarback {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  
+    background: #252525;
+    color: grey;
+    font-size: 20px;
+    grid-column: 1;
+  }
+  .btncalendarforword {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background: #252525;
+    color: grey;
+  
+    font-size: 20px;
+    grid-column: 1;
+  }
+  .red {
+    background-color: red;
+  }
+  
